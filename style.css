@@ -1,1 +1,189 @@
-@import "tailwindcss"
+.{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+
+/* shared css */
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.primary{
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+
+.btn-primary{
+    padding: 18px 30px;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    background-color: #B68C5A;
+
+}
+.dark-2{
+    color: #414040;
+}
+.dark-3{
+    color: #707070;
+    
+}
+
+
+
+
+
+
+
+ /* main css  */
+
+ /* heading section */
+
+.header-img{
+    display: flex;
+    gap: 10px;
+    /* border: solid; */
+    width: 45px;
+    height: 45px;
+}
+.header-img img{
+    width: 45px;
+    height: 45px;
+    padding-top: 10px;
+}
+
+
+.header-img h3{
+     font-size: 2.82rem;
+    font-weight: 800; 
+    /* border: solid; */
+    padding: 0;
+    margin-top: 0;
+
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    
+    justify-content: space-between;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: brown;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    /* border: solid; */
+    padding-top: 50px;
+    
+}
+
+
+/* heading end */
+
+
+/* banner start */
+
+.banner{
+    background-image: url(./images/banner.png);
+    background-repeat: no-repeat;
+    max-width: 1200px;
+    height: 500px;
+    margin-top: 50px;
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner img{
+    width: 100%;
+    /* display: block; */
+}
+.banner-heading{
+    max-width: 700px;
+    /* border: solid beige; */
+    
+
+}
+.banner-heading h3{
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 4rem;
+    text-align: center;
+    line-height: 64px;
+    margin:0;
+    padding:5;
+}
+.banner-heading p{
+    color: #E7E7E7;
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+}
+.searchbar{
+    gap: 40px;
+    
+}
+.searchbar button{
+    width: 25%;
+}
+.searchbar input{
+    padding:  20px 320px 20px 20px;
+    border-radius: 8px;
+    border: none;
+    margin-right: 10px;
+}
+
+/* banner end */
+
+/* card section */
+
+.card-heading{
+   text-align: center;
+    /* border: solid; */
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.card-heading p{
+    color: #707070;
+    
+    
+
+}
+.card-heading h3{
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #414040;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.card{
+    
+    text-align: center;
+    padding: 30px;
+}
+
+
+
+/* card section end */
+
+/*  */
+
