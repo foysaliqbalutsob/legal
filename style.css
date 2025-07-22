@@ -233,6 +233,9 @@
 /* client section end */
 
 /* question section starts*/
+.question-container {
+    margin-bottom: 150px;
+}
 
 .question-heading{
     text-align: center;
@@ -289,3 +292,115 @@
     text-align: center;
 }
 
+.contact-heading{
+    margin-bottom: 50px;
+} 
+.contact-heading h3{
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+
+.contact-main{
+    display: flex;
+    /* justify-content: center; */
+    max-width: 1170px;
+    /* border: solid #707070; */
+    gap: 30px;
+    margin-bottom: 150px;
+
+    flex:1; 
+}
+
+
+.contact-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* border: solid; */
+    width: 100%;
+    
+
+}
+.c-card{
+    background-color: rgb(243, 243, 243);
+    /* border: solid; */
+    padding: 50px;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+
+.input-section{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    
+    
+  
+
+}
+
+.input-section input,textarea{
+    padding: 20px 150px 20px 20px; 
+    border-radius: 8px;
+    background-color: rgb(243, 243, 243);
+    border: none;
+}
+
+.input-section placeholder{
+    color: rgb(112, 112, 112);
+}
+
+
+
+/*  */
+
+
+/* footer section */
+footer{
+    background-color: rgb(17, 17, 17);
+    color:rgb(255, 255, 255);
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 100px;
+    
+}
+.foot-nav ul{
+    list-style: none;
+}
+.foot-nav ul a{
+    text-decoration: none;
+    color: rgb(207, 207, 207);
+
+}
+.Subscribe-btn{
+    position: relative;
+}
+
+.Subscribe-btn input{
+    padding: 20px 150px 20px 10px;
+    border-radius: 8px;
+    
+}
+
+.Subscribe-btn button{
+    padding: 20px 50px 20px 10px;
+    border-radius: 8px;
+    position: absolute;
+    border: none;
+    left: 250px;
+    
+
+}
